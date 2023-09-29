@@ -24,6 +24,7 @@ __metadata:
     eslint: ^8.50.0
     eslint-plugin-react: ^7.33.2
     eslint-plugin-react-hooks: ^4.6.0
+    many-keys-map: ^2.0.1
     prettier: 3.0.3
     prettier-plugin-organize-imports: 3.2.3
     prettier-plugin-pkg: 0.18.0
@@ -2400,6 +2401,13 @@ __metadata:
     socks-proxy-agent: ^7.0.0
     ssri: ^9.0.0
   checksum: 2332eb9a8ec96f1ffeeea56ccefabcb4193693597b132cd110734d50f2928842e22b84cfa1508e921b8385cdfd06dda9ad68645fed62b50fff629a580f5fb72c
+  languageName: node
+  linkType: hard
+
+"many-keys-map@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "many-keys-map@npm:2.0.1"
+  checksum: ba2b93d41fe3fa5e611ffa2a3ddb7ec5765ae5acc473ee44061e4fb8a69b723e01b84b70ed2aa7700bdbc78f844185af9320287197052df518e79c6ec2070753
   languageName: node
   linkType: hard
 
