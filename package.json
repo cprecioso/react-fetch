@@ -1,0 +1,44 @@
+{
+  "name": "@cprecioso/react-fetch",
+  "version": "0.1.0",
+  "description": "Fetch utils for React Suspense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cprecioso/react-fetch.git"
+  },
+  "homepage": "https://github.com/cprecioso/react-fetch#readme",
+  "bugs": {
+    "url": "https://github.com/cprecioso/react-fetch/issues"
+  },
+  "author": "Carlos Precioso",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.3",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build-docs": "typedoc",
+    "prepack": "$npm_execpath run build"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  },
+  "dependencies": {
+    "@cprecioso/react-suspense": "^2.1.1"
+  },
+  "devDependencies": {
+    "@cprecioso/tsconfig": "^2.0.1",
+    "@types/react": "^18.2.23",
+    "prettier": "3.0.3",
+    "prettier-plugin-organize-imports": "3.2.3",
+    "prettier-plugin-pkg": "0.18.0",
+    "prettier-plugin-sh": "0.13.1",
+    "tsup": "^7.2.0",
+    "typedoc": "^0.25.1",
+    "typescript": "~5.2.2"
+  },
+  "sideEffects": false
+}
