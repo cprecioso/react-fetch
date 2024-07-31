@@ -2,11 +2,11 @@ import { bindKeyedSuspense } from "@cprecioso/react-suspense";
 import ManyKeysMap from "many-keys-map";
 import { useCallback, useMemo, useState, useTransition } from "react";
 import {
-  AnyKey,
-  SetStateArg,
-  State,
   arrayElementsAreEqual,
   createStateSetter,
+  type AnyKey,
+  type SetStateArg,
+  type State,
 } from "./util";
 
 const justCall = <T>(fn: () => T) => fn();
