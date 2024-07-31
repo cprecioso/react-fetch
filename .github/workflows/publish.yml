@@ -16,7 +16,7 @@ jobs:
 
       # Build and upload code
       - run: yarn pack -o package.tgz
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: package.tgz
           path: package.tgz
@@ -43,7 +43,7 @@ jobs:
           node-version: lts/*
           registry-url: https://registry.npmjs.org/
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: package.tgz
 
