@@ -101,7 +101,7 @@ __metadata:
   resolution: "@cprecioso/react-fetch@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^1.8.3"
-    "@cprecioso/react-suspense": "npm:^2.1.1"
+    "@cprecioso/react-suspense": "npm:^3.0.0"
     "@cprecioso/tsconfig": "npm:^2.0.1"
     "@types/react": "npm:^18.3.3"
     many-keys-map: "npm:^2.0.1"
@@ -117,12 +117,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cprecioso/react-suspense@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "@cprecioso/react-suspense@npm:2.1.1"
+"@cprecioso/react-suspense@npm:^3.0.0":
+  version: 3.1.0
+  resolution: "@cprecioso/react-suspense@npm:3.1.0"
   peerDependencies:
     react: ^18
-  checksum: 10/a14bb851d831a03cc60f681909659bdb5486596eb0f4be7d04f281fca7e09f0898fe34f9c9d85032812e3820a3560d60355f701e8ae66144f658508ed8f38f17
+  checksum: 10/9f7fc9178dfdc49479a6fdf133189f38f43c8c82fb80d8837c599e959bc4128eb776191f37c588982ca49135dadfc77791f688e8275bf051be603248599e7e20
   languageName: node
   linkType: hard
 

@@ -27,7 +27,7 @@
     "react": "^18"
   },
   "dependencies": {
-    "@cprecioso/react-suspense": "^2.1.1",
+    "@cprecioso/react-suspense": "^3.0.0",
     "many-keys-map": "^2.0.1"
   },
   "devDependencies": {
