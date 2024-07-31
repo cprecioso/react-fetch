@@ -1,9 +1,13 @@
-# React Suspense Fetchr
+# React Suspense Fetch
 
 ```sh
 $ npm i -D @cprecioso/react-fetch       # if you use npm
 $ yarn add --dev @cprecioso/react-fetch # if you use yarn
 ```
+
+## API
+
+_See the [docs](https://cprecioso.github.io/react-fetch/)_
 
 ## Quick-start
 
@@ -47,7 +51,3 @@ const Post = ({ id }) => {
   );
 };
 ```
-
-## API
-
-_See the [docs](https://cprecioso.github.io/react-fetch/)_
